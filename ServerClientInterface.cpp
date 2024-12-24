@@ -153,8 +153,7 @@ uint64_t ServerClientInterface::sum_vec(){
 * @throw Errors при возникновении ошибки
 */
 int ServerClientInterface::interaction(string database, string logFile){
-    
-    // Получение пути к файлу для записи ошибок
+    // Получение пути к файлу для записи ошибок 
     Errors Err;
     Err.set_File_Log(logFile);
 
